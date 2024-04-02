@@ -1,56 +1,59 @@
-
-*{
+* {
   margin: 0;
   padding: 0;
   font-size: 100%;
-
 }
-h3{
+h3 {
   color: #bfebf8;
 }
-p{
+p {
   color: #bfebf8;
-
 }
 body {
   /* padding-left: 200px; 
   padding-right: 200px;  */
-  background-image: linear-gradient(#E0EAFC,#CFDEF3) ;
+  background-image: linear-gradient(#e0eafc, #9bb9e4);
   font-family: "Poppins", sans-serif;
 }
 header {
   justify-content: space-between;
-  display: block;
+  /* display: block; */
   background-color: #023e8a;
   height: 90px;
   width: auto;
 }
+
+header h3 {
+  /* display: inline; */
+}
+
 header ul {
   padding-top: 30px;
   float: right;
   display: inline-block;
   list-style: none;
+  /* margin-bottom: 100px; */
 }
-header ul li a{
+header ul li a {
   color: #bfebf8;
 
   padding: 25px;
   list-style: none;
   display: inline-block;
   text-decoration: none;
-} 
+}
 
 .content {
   padding: 20px 250px 20px 250px;
   height: 90vh;
 }
-.content .contact{
+.content .contact {
   padding: 20px 250px 20px 250px;
   height: 90vh;
 }
 
-.contact{
-  margin:20px 0  ;
+.contact {
+  margin: 20px 0;
   border: solid black;
   transform: translateX(500px);
   padding-top: 100px;
@@ -59,11 +62,10 @@ header ul li a{
   border-radius: 15px;
   border: none;
   background-color: white;
-  
 }
 
 .content .bannerhome {
-  background-image: url(/Tugas020424/assets/img/home.jpg);
+  background-image: url(../img/home.jpg);
   padding: 20px;
   height: 80vh;
   width: auto;
@@ -79,63 +81,66 @@ header ul li a{
   border-radius: 10px;
 }
 
-.content .banner h3,p{
+.content .banner h3,
+p {
   color: #023e8a;
 }
 
-.a{
+.a {
   height: 290px;
   width: 200px;
 }
-.b{
+.b {
   height: 290px;
   width: 200px;
 }
-.c{
+.c {
   height: 290px;
   width: 200px;
 }
 
-.cp{
+.cp {
   display: flex;
   margin: 15px;
-  justify-content: space-between; 
-  flex-wrap: nowrap;
-  gap: 10px;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  gap: 15px;
+
   /* grid-column: 6; */
 }
 
-.card{
-  border: solid ;  
+.card {
+  border: solid;
   border: none;
   height: 290px;
   width: 200px;
   border-radius: 10px;
+  gap: 10px;
   /* background-color: white; */
   background-size: cover;
   /* background-image: url(assets/img/shop1.jpg); */
 }
 
-.card{
-  border: solid ;  
+.card {
+  border: solid;
   border: none;
   height: 290px;
   width: 200px;
   border-radius: 10px;
-  /* background-color: white; */
+  background-color: white;
   background-size: cover;
   /* background-image: url(assets/img/shop1.jpg); */
 }
 
-.card1{
+.card1 {
   border: none;
   height: 290px;
   width: 200px;
   border-radius: 10px;
-  /* background-color: white; */
+  background-color: white;
   /* background-image: url(assets/img/1.png); */
 }
-.card2{
+.card2 {
   border: none;
   height: 290px;
   width: 200px;
@@ -143,7 +148,7 @@ header ul li a{
   background-color: white;
   /* background-image: url(assets/img/shop3.jpg); */
   background-size: cover;
-}/*
+} /*
 .card3{
   border: none;
   height: 290px;
@@ -169,15 +174,15 @@ header ul li a{
   background-image: url(/Tugas020424/assets/img/shop1.jpg);
 } */
 
-.aboutme{
-  margin: 30px 250px ;
+.aboutme {
+  margin: 30px 250px;
   border: none;
   padding: 60px;
   border-radius: 15px;
-background-color: white;
+  background-color: white;
 }
 
-.beliBtn{
+.beliBtn {
   margin-top: 408px;
   /* justify-content: end; */
   transform: translateX(400px);
@@ -189,12 +194,11 @@ background-color: white;
   padding: 11px;
 }
 
-.beliBtn:hover{
+.beliBtn:hover {
   background-color: #023e8a;
   color: #bfebf8;
   transition: ease-in 0.1s;
   opacity: 1;
-
 }
 
 footer {
